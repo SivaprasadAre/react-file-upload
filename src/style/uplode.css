@@ -1,0 +1,31 @@
+ .uplodebody {
+   
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+input[type="file"]{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: all;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display:none;
+}
+
+.label-file::after{
+  content: "" !important;
+  padding: 0 !important;
+  background-color: #26c69a !important;
+}
+.custom-file-label{
+  background-color: #26c69a !important;
+  text-align: center;
+}
